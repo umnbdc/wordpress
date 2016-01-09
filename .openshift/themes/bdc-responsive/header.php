@@ -99,6 +99,7 @@ if ( !defined( 'ABSPATH' ) ) {
 			'container'      => 'none',
 			'container_class' => 'menu-header',
 			'theme_location' => 'primary',
+			'fallback_cb' => '',
 			'menu' => get_post_meta( $post->ID, 'MenuName', true)
 		) ); ?>
 
