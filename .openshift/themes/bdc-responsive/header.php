@@ -93,13 +93,14 @@ if ( !defined( 'ABSPATH' ) ) {
 			'theme_location'  => 'header-menu'
 		) ); ?>
 
-		<?php if ( has_nav_menu( 'sub-header-menu', 'responsive' ) ) {
-			wp_nav_menu( array(
-				'container'      => '',
-				'menu_class'     => 'sub-header-menu',
-				'theme_location' => 'sub-header-menu'
-			) );
-		} ?>
+		<!-- Change the subheader menu based on the page metadata -->
+		<!-- (add a custom field "MenuName" whose value corresponds to the menu you want on this page) -->
+		<?php wp_nav_menu( array(
+			'container'      => 'none',
+			'container_class' => 'menu-header',
+			'theme_location' => 'primary',
+			'menu' => get_post_meta( $post->ID, 'MenuName', true)
+		) ); ?>
 
 		<?php responsive_header_bottom(); // after header content hook ?>
 
