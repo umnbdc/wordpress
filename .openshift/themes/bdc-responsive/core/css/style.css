@@ -685,7 +685,7 @@ blockquote {
 
 th,
 td {
-	padding: 0.8em;
+	/*padding: 0.8em;*/
 }
 
 caption {
