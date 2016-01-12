@@ -835,6 +835,7 @@ form div {
 #content-full {
 	margin-top: 0;
 	margin-bottom: 20px;
+	padding: 0 1em;
 }
 
 #content-blog {
