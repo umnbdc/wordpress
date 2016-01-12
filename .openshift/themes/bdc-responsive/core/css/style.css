@@ -760,8 +760,6 @@ form div {
 #container {
 	max-width: 960px;
 	margin: 0 auto;
-	padding: 0 20px;
-	/*padding: 0 25px;*/
 }
 
 #wrapper {
