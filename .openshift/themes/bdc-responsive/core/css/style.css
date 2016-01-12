@@ -569,7 +569,7 @@ input[type="password"] {
 th,
 td,
 table {
-	border: 1px solid #ddd;
+	border: 0;
 }
 
 table {
