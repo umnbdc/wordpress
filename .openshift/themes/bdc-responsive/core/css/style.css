@@ -765,7 +765,7 @@ form div {
 #wrapper {
 	clear: both;
 	position: relative;
-	margin: 10px auto 20px;
+	margin: 0 auto 20px;
 	padding: 0 10px 10px 10px;
 	border: 1px solid #e5e5e5;
 	-webkit-border-radius: 4px;
@@ -775,7 +775,7 @@ form div {
 }
 
 .front-page #wrapper {
-	margin: 10px auto 20px;
+	margin: 0 auto 20px;
 	padding: 0;
 	border: none;
 	background-color: transparent;
