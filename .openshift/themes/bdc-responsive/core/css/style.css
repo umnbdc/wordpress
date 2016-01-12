@@ -760,15 +760,15 @@ form div {
 #container {
 	max-width: 960px;
 	margin: 0 auto;
-	padding: auto 0;
+	padding: 0 20px;
 	/*padding: 0 25px;*/
 }
 
 #wrapper {
 	clear: both;
 	position: relative;
-	margin: auto auto 20px;
-	padding: 0;
+	margin: 10px auto 20px;
+	padding: 0 10px 10px 10px;
 	border: 1px solid #e5e5e5;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -777,7 +777,7 @@ form div {
 }
 
 .front-page #wrapper {
-	margin: auto auto 20px;
+	margin: 10px auto 20px;
 	padding: 0;
 	border: none;
 	background-color: transparent;
@@ -830,13 +830,11 @@ form div {
 #content {
 	margin-top: 10px;
 	margin-bottom: 20px;
-	padding: 0 20px;
 }
 
 #content-full {
 	margin-top: 0;
 	margin-bottom: 20px;
-	padding: 0 20px 20px 20px;
 }
 
 #content-blog {
