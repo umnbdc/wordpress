@@ -1,6 +1,7 @@
 /* =Responsive (Mobile) Design
 -------------------------------------------------------------- */
 
+/* Anything up to the largest width */
 @media screen and (max-width: 980px) {
 	body {
 	}
@@ -49,6 +50,7 @@
 	}
 }
 
+/* Up to 650px wide */
 @media screen and (max-width: 650px) {
 	body {
 	}
@@ -245,6 +247,7 @@
 	}
 }
 
+/* Up to 480px wide */
 @media screen and (max-width: 480px) {
 	body {
 	}
@@ -311,6 +314,7 @@
 	}
 }
 
+/* Up to 320px wide */
 @media screen and (max-width: 320px) {
 	body {
 	}
@@ -342,6 +346,7 @@
 	}
 }
 
+/* Up to 240px wide (smallest size) */
 @media screen and (max-width: 240px) {
 	body {
 	}
