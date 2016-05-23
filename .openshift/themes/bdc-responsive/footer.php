@@ -39,19 +39,16 @@ $responsive_options = responsive_get_options();
 
 		<?php get_sidebar( 'footer' ); ?>
 
-		<div class="grid col-940">
+		<!-- Removed Social Icons and made the footer menu full-width -->
+		<?php if ( has_nav_menu( 'footer-menu', 'responsive' ) ) {
+			wp_nav_menu( array(
+				'container'      => '',
+				'fallback_cb'    => false,
+				'menu_class'     => 'footer-menu',
+				'theme_location' => 'footer-menu'
+			) );
+		} ?>
 
-			<!-- Removed Social Icons and made the footer menu full-width -->
-			<?php if ( has_nav_menu( 'footer-menu', 'responsive' ) ) {
-				wp_nav_menu( array(
-					'container'      => '',
-					'fallback_cb'    => false,
-					'menu_class'     => 'footer-menu',
-					'theme_location' => 'footer-menu'
-				) );
-			} ?>
-
-		</div><!-- end of col-940 -->
 		<?php get_sidebar( 'colophon' ); ?>
 
 	</div><!-- end #footer-wrapper -->
