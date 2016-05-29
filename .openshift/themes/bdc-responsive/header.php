@@ -88,7 +88,8 @@ if ( !defined( 'ABSPATH' ) ) {
 		<?php get_sidebar( 'top' ); ?>
 		<?php wp_nav_menu( array(
 			'container'       => 'div',
-			'container_class' => 'main-nav',
+//			'container_class' => 'main-nav',
+			'container_class' => 'header-nav',
 			'fallback_cb'     => 'responsive_fallback_menu',
 			'theme_location'  => 'header-menu'
 		) ); ?>
