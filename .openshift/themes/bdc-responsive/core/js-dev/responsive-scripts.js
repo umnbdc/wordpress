@@ -504,7 +504,7 @@ jQuery(document).ready(function ($) {
 jQuery('.main-nav').click(function (event) {
 	var pathname = window.location.pathname;
 	if (pathname != '/wp-admin/customize.php') {
-		event.stopPropagation();
+		//event.stopPropagation();
 	}
 });
 
